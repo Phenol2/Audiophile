@@ -10,12 +10,12 @@ import { useSelector, useDispatch } from "react-redux"
 import { addCartTotal } from "./features/CartReducer"
 
 
-/*let goat = <Route path = "/category/:category" element = {<Category />} /> */
 
 function App() {
   let { cartItems } = useSelector((store) => store.cart)
   console.log(cartItems)
-    //let { amount } = useSelector(store => store.cart)
+    
+    
     
     let dispatch = useDispatch()
     
